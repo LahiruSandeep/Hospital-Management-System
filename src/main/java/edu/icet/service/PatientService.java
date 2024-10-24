@@ -1,7 +1,6 @@
 package edu.icet.service;
 
 import edu.icet.dto.Patient;
-import edu.icet.entity.PatientEntity;
 
 import java.util.List;
 
