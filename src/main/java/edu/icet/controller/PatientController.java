@@ -19,6 +19,7 @@ public class PatientController {
     public List<Patient> getPatient() {
         return service.getPatient();
     }
+
     @PostMapping("/add-patient")
     @ResponseStatus(HttpStatus.CREATED)
     public void addPatient(@RequestBody Patient patient){
